@@ -1517,7 +1517,8 @@ with col_export1:
 
 with col_export2:
     st.markdown("#### 📲 Instant WhatsApp Quotation Dispatch")
-    st.caption("One-click executive briefing formatted for instant client sharing on mobile or WhatsApp Web.")
+    st.caption("One-click executive briefing formatted for instant client sharing on mobile or WhatsApp Web.
+    ")
     with st.expander("Preview & Dispatch Client Summary", expanded=False):
         st.code(whatsapp_text, language=None)
         st.markdown(
